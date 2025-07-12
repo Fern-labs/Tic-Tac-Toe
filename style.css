@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template: 166.67px 166.67px / 1fr 1fr 1fr;
+  background-color: yellow;
+  outline: solid black;
+  height: 500px;
+  width: 500px;
+}
+.ticBox {
+  background-color: brown;
+  outline: solid black;
+}
