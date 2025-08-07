@@ -24,3 +24,7 @@ body {
   background-color: brown;
   outline: solid black;
 }
+
+.ticBox:hover {
+  opacity: 0.1;
+}
